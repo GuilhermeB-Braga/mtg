@@ -13,12 +13,12 @@
 }
 
 body{
-    background: var(--gradient) no-repeat;
+    background: linear-gradient(to bottom, #5e7a64, #031607);
     background-size: cover;
     font: normal;
     height: 100vh;
     font-size: 1.6rem;
-    width: 100%; 
+    width: 100%;
 }
 
 header{
@@ -31,13 +31,10 @@ header{
 
 #logo{
     font-size: 2.5rem;
-
+    font-weight: 700;
+    color: #031607;
     cursor: pointer;
     transition: .5s;
-}
-
-.material-symbols-outlined{
-    cursor: pointer;
 }
 
 .container{
@@ -46,13 +43,11 @@ header{
 }
 
 section{
-    background: rgba(255, 255, 255, 0.192);
+    background: rgba(255, 255, 255, 0.137);
     border-radius: 10px;
     padding: 1.5rem;
     width: max-content;
     margin: auto;
-    box-shadow: .5rem .5rem 3rem rgba(208, 255, 0, 0.274);
-    border: 1px solid white;
     color: black;
     display: flex;
     flex-direction: column;
@@ -119,30 +114,4 @@ footer{
     font-style: italic;
     color: white;
     
-}
-#menuBar{
-    display: none;
-}
-#menuBar nav{
-    background: rgba(255, 255, 255, 0.158);
-    border-radius: .8rem;
-    padding: 5px;
-    width: 100%;
-    height: max-content;
-
-}
-
-#menuBar ul{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-#menuBar a{
-    color: rgb(255, 255, 255);
-    transition: all 0.3s;
-}
-
-#menuBar a:hover{
-    color: rgb(47, 241, 40);
-    border-bottom: 1px solid rgb(47, 241, 40);
 }
